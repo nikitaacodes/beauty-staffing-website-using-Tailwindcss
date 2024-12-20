@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-   'grey': '#454444'
+   'grey': '#454444' ,
+   'coral': '#e5af73'
       },
       fontFamily: {
         'astyle': ['poppins','sans-serif']
