@@ -4,70 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tailwind </title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
+   
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
-    
+
     <!--navbar-->
-    <div class="bg-black font-astyle h-[60px] m-4 p-4 rounded-md flex flex-row items-center justify-around">
-        <div class="text-sm text-white text-[20px] font-serif" > Home </div>
-        <div class="text-sm text-white text-[20px] font-serif" > services </div>
-         <div class="text-sm text-white text-[20px]  font-serif" > customer </div>
-         <div class="text-sm text-white text-[20px]  font-serif" > Blog </div>
-         <div class="text-sm bg-white m-2 text-black font-serif rounded-sm flex flex-row p-3 " > Appointment
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"  stroke="currentColor" class="ml-1 size-5">
+    <div class="bg-black h-[80px] mx-12 mt-7 p-4 w-screen rounded-md flex flex-row items-center justify-around">
+        <div class=" text-white text-[23px] font-roboto tracking-[2px]" > HOME </div>
+        <div class=" text-white text-[23px] font-roboto" > SERVICES </div>
+         <div class=" text-white text-[23px]  font-roboto" > CUSTOMERS </div>
+         <div class=" text-white text-[23px]  font-roboto" > BLOG </div>
+         <div class=" text-[23px] bg-white m-2 text-black font-roboto rounded-sm flex flex-row pt-4 pb-4 pl-8 pr-8 " > APPOINTMENT
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"  stroke="currentColor" class="ml-2 size-7">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
               </svg>
                </div>
     </div> 
 
 
-    <div class="text-black flex flex-col mt-[80px]  " >
-<p class="text-black font-serif text-[70px] text-center">Healthy Hair</p>
-<p class="text-black font-serif text-[70px] text-center">Reflection of wellness</p>
-<p class="text-grey text-sm w-[700px] font-astyle text-center mx-auto mb-[40px] leading-7"> Our destination for all your beauty and wellness needs. Esatblished in 2003, we have been serving the Gong-Nam Seoul community with passion and dedication. Our salon offers a comprehensive range of services.</p>
+    <div class="text-black w-screen flex flex-col mt-[130px] leading-[120px] " >
+<p class="text-black font-serif text-[100px] text-center">Healthy Hair</p>
+<p class="text-black font-serif text-[100px] text-center">Reflection of wellness</p>
+<p class="text-grey text-[20px] w-[900px] font-astyle text-center mx-auto mb-[40px] leading-7"> Our destination for all your beauty and wellness needs. Esatblished in 2003, we have been serving the Gong-Nam Seoul community with passion and dedication. Our salon offers a comprehensive range of services.</p>
     </div>
 
 
 <img src="https://img.freepik.com/free-photo/two-girls-are-doing-make-up-front-big-mirror_231208-3556.jpg?t=st=1734264155~exp=1734267755~hmac=99b43439746ada865a826f5227268953017def204fedcbd8942f400a326c7733&w=996"
- class="rounded-lg h-full w-[1450px] mx-10 ">
+ class="rounded-lg  w-screen mx-10 ">
+
 
  <!-- w-screen viewport width-->
- <div class=" text-black flex flex-row ">
-   <!--w-1/2 half of screen-->
-    <img src="./assets/Skincare-bro.png" class="rounded-lg pl-[100px] m-10 w-10" >
-
-    <div class="mt-16 flex flex-col gap-10">
-        <div class="text-coral font-astyle text-[30px] text-left" > Try our service</div>
-        <div class="text-black font-serif text-[70px] text-left">Your Hair Diagnosis in Minutes</div>
-        <div class="text-grey font-astyle text-[10px] text-left"> say hello to a more radiant, healthier with you with personalized hair care thats as unique as you are.</div>
-        <button class=" text-black font-sans text-left border-2  border-grey  "> Book an Appointment
-            <i class="fa-solid fa-arrow-right text-grey text-left"></i>
-        </button>
+ <div class=" text-black flex flex-row w-screen ">
+    <div class="w-1/2 m-10">
+    <img src="./assets/Skincare-bro.png" class="rounded-lg m-12 p-[120px]" >
     </div>
 
+    <div class="mt-[250px] flex flex-col gap-3">
+                <div class="text-pinkish mt-[100px] text-[30px]"> Try our service</div>
+                <div class="text-black w-[700px] font-serif text-[70px] text-left">Your Hair Diagnosis in Minutes</div>
+                <div class="text-grey font-astyle text-[20px] w-[650px] text-left"> say hello to a more radiant, healthier with you with personalized hair care thats as unique as you are.</div>
+                <button class=" text-black text-[20px] font-roboto p-3 m-2 border-2 w-[300px] border-grey  hover:bg-black hover:text-white ease-in "> Book an Appointment
+                    <i class="fa-solid fa-arrow-right text-black bg-black size-6 "></i>
+                </button>
+    </div>
 
  </div>
- <hr class="border-t-4 border-black">
-<div class="flex flex-row m-4 ">
-    <div class=" w-[20px] h-[60px] p-4 border border-grey">
-        <img src="./assets/haircolor.jpg" alt="haircolor" class="filter blur-3xl" >
+ <!-- transition here -->
+<div class="flex flex-row flex-wrap mt-0 relative ">
+    <div class=" m-5 mt-0 w-[500px] h-[500px] p-4 ">
+        <span class=" absolute text-center justify-center items-center flex z-50  text-white font-serif text-[30px]">
+            haircolor
+        </span>
+        <img src="./assets/haircolor.jpg" alt="haircolor" class="filter blur-[1px]" >
+        
     </div>
-    <div class=" w-[20px] h-[60px] p-4 border border-grey">
-        <img src="./assets/haircut.jpg" alt="haircolor">
+    <div class=" m-5 mt-0 w-[500px] h-[1000px] p-4  ">
+        <span class=" absolute text-center justify-center items-center flex z-50  text-white font-serif text-[30px]">
+           haircut
+        </span>
+        <img src="./assets/haircut.jpg" alt="haircut" class="filter blur-[1px]" >
+       
     </div>
-    <div class=" w-[20px] h-[60px] p-4 border border-grey">
-        <img src="./assets/hairmoist.jpg" alt="haircolor">
+    <div class=" m-5 mt-0 w-[500px] h-[1000px] p-4 ">
+        <span class=" absolute text-center justify-center items-center flex z-50  text-white font-serif text-[30px]">
+            hair moist
+         </span>
+        <img src="./assets/hairmoist.jpg" alt="hairmoist" class="filter blur-[1px]" >
     </div>
-    <div class=" w-[20px] h-[60px] p-4 border border-grey">
-        <img src="./assets/hariext.jpg" alt="haircolor">
+    <div class=" m-5 mt-0 w-[500px] h-[1000px] p-4 ">
+        <span class=" absolute text-center justify-center items-center flex z-50  text-white font-serif text-[30px]">
+            hair extension
+         </span>
+        <img src="./assets/hariext.jpg" alt="hairext" class="filter blur-[1px]" >
     </div>
+   
+   
 </div>
 
 
 
 
 </body>
+<script defer src="https://cdn.tailwindcss.com"></script>
 </html>
