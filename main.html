@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tailwind </title>
 
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="output.css">
 </head>
 <body>
@@ -54,37 +54,83 @@
  <!-- transition here -->
 <div class="flex flex-row flex-wrap mt-0 relative ">
     <div class=" m-5 mt-0 w-[500px] h-[500px] p-4 ">
-        <span class=" absolute text-center justify-center items-center flex z-50  text-white font-serif text-[30px]">
+        <span class=" absolute text-center justify-center items-center flex z-50 text-shadow-lg shadow-black text-white font-serif text-[30px]">
             haircolor
         </span>
-        <img src="./assets/haircolor.jpg" alt="haircolor" class="filter blur-[1px]" >
+        <img src="./assets/haircolor.jpg" alt="haircolor" class="filter blur-[1px] " >
         
     </div>
     <div class=" m-5 mt-0 w-[500px] h-[1000px] p-4  ">
-        <span class=" absolute text-center justify-center items-center flex z-50  text-white font-serif text-[30px]">
+        <span class=" absolute text-center justify-center items-center flex z-50 text-shadow-lg shadow-black text-white font-serif text-[30px]">
            haircut
         </span>
         <img src="./assets/haircut.jpg" alt="haircut" class="filter blur-[1px]" >
        
     </div>
     <div class=" m-5 mt-0 w-[500px] h-[1000px] p-4 ">
-        <span class=" absolute text-center justify-center items-center flex z-50  text-white font-serif text-[30px]">
+        <span class=" absolute text-center justify-center items-center flex z-50 text-shadow-lg shadow-black text-white font-serif text-[30px]">
             hair moist
          </span>
         <img src="./assets/hairmoist.jpg" alt="hairmoist" class="filter blur-[1px]" >
     </div>
     <div class=" m-5 mt-0 w-[500px] h-[1000px] p-4 ">
-        <span class=" absolute text-center justify-center items-center flex z-50  text-white font-serif text-[30px]">
+        <span class=" absolute text-center justify-center items-center flex z-50 text-shadow-lg shadow-black text-white font-serif text-[30px]">
             hair extension
          </span>
         <img src="./assets/hariext.jpg" alt="hairext" class="filter blur-[1px]" >
     </div>
-   
+  
    
 </div>
 
+<div class=" text-black flex flex-row w-screen ">
+    <div class="w-1/2 m-5">
+    <img src="./assets/spa.jpg" class="rounded-lg p-[120px]" >
+    </div>
 
+    <div class="mt-[250px] flex flex-col gap-3">
+                <div class="text-red-950 mt-[100px] text-[30px]"> About Us</div>
+                <div class="text-black w-[700px] font-serif text-[70px] text-left">A premiere destination</div>
+                <div class="text-grey font-astyle text-[20px] w-[650px] text-left"> we pride ourselves on using , high quality  producs, and staying updated ,with latest trends </div>
+                <button class=" text-black text-[20px] font-roboto p-3 m-2 border-2 w-[300px] border-grey  hover:bg-black hover:text-white ease-in "> Book an Appointment
+                    <i class="fa-solid fa-arrow-right text-black bg-black size-6 "></i>
+                </button>
+    </div>
 
+ </div>
+
+ <div class="justify-around flex flex-row">
+    <div class="flex flex-col leading-[25px]">
+        <i class="fa-solid fa-gift text-center text-coral"></i>
+        <span class="text-black text-[20px] text-center font-astyle mt-[30px] "> Loyalty program</span>
+        <span class="text-black text-[30px] text-center font-serif "> For Happy skin</span>
+        <div class=" mt-[20px] text-[23px] bg-white m-2 border-2 border-grey text-black font-roboto rounded-sm flex flex-row pt-4 pb-4 pl-8 pr-8 " > Learn more
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"  stroke="currentColor" class="ml-2 size-[30px]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+              </svg>
+               </div>
+    </div>
+    <div class="flex flex-col leading-[25px]">
+        <i class="fa-solid fa-people-group text-center text-coral"></i>
+        <span class="text-black text-[20px] text-center font-astyle mt-[30px] ">Organic beauty is shared</span>
+        <span class="text-black text-[30px] text-center font-serif "> Sponser those you love!</span>
+        <div class=" mt-[20px] text-[23px] bg-white m-2 border-2 border-grey text-black font-roboto rounded-sm flex flex-row pt-4 pb-4 pl-8 pr-8 " > Learn more
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"  stroke="currentColor" class="ml-2 size-7">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+              </svg>
+               </div>
+    </div>
+    <div class="flex flex-col leading-[25px] ">
+        <img width="40" height="40" src="https://img.icons8.com/pastel-glyph/100/spa-care.png" class="text-coral text-center" alt="spa-care"/>
+        <span class="text-black text-[20px] text-center font-astyle mt-[30px]"> treat yourself to good weather</span>
+        <span class="text-black text-[30px] text-center font-serif "> At Maison Absolution</span>
+        <div class="mt-[20px] text-[23px] bg-white m-2 border-2 border-grey text-black font-roboto rounded-sm flex flex-row pt-4 pb-4 pl-8 pr-8 " > Learn more
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"  stroke="currentColor" class="ml-2 size-7">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+              </svg>
+               </div>
+    </div>
+ </div>
 
 </body>
 <script defer src="https://cdn.tailwindcss.com"></script>
